@@ -1,0 +1,115 @@
+html {
+    font-size: 20px;
+    background: url('./drums2.jpg');
+    background-size: cover;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.keys {
+
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#a-key {
+    position: relative;
+    left: 26rem;
+    bottom: 8rem;
+}
+
+#s-key {
+    position: relative;
+    left: 39rem;
+    bottom: 5rem
+}
+
+#d-key {
+    position: relative;
+    top: 10rem;
+    left: 42rem;
+}
+
+
+#f-key {
+    position: relative;
+    bottom: 8rem;
+    left: 16rem;
+}
+
+
+#g-key {
+    position: relative;
+    top: 1rem;
+    left: 21rem;
+}
+
+
+#h-key {
+    position: relative;
+    bottom: 5rem;
+    right: 20rem;
+}
+
+
+#j-key {
+    position: relative;
+    right: 14rem;
+    bottom: 9rem;
+}
+
+
+#k-key {
+    position: relative;
+    right: 46rem;
+    top: 10rem;
+}
+
+
+#l-key {
+    position: relative;
+    top: 1rem;
+    right: 49rem;
+}
+
+.key {
+    border: .3rem solid black;
+    border-radius: 4rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 2rem 0.5rem;
+    transition: all 0.1s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 0.5rem black;
+}
+
+kbd {
+    display: block;
+    font-size: 3rem;
+}
+
+
+.playing {
+    transform: scale(1.1);
+    border-color: #fdc687;
+    box-shadow: 0 0 1rem #fdc687;
+
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #fdc687;
+}
