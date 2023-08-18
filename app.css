@@ -20,7 +20,7 @@ html {
     justify-content: center;
 }
 
-#a-key {
+/* #a-key {
     position: relative;
     left: 26rem;
     bottom: 8rem;
@@ -78,7 +78,7 @@ html {
     position: relative;
     top: 1rem;
     right: 49rem;
-}
+} */
 
 .key {
     border: .3rem solid black;
