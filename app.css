@@ -1,6 +1,6 @@
 html {
-    font-size: 20px;
-    background: url('./drums2.jpg');
+    font-size: 10px;
+    background: url('./drums2.jpg') bottom center;
     background-size: cover;
 }
 
@@ -11,92 +11,88 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.keys {
+.container {
 
     display: flex;
-    flex: 1;
+    flex-wrap: wrap;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
 
-/* #a-key {
-    position: relative;
-    left: 26rem;
-    bottom: 8rem;
+#a-key {
+    background: url('./clap.jpg') bottom center;
+    background-size: cover;
 }
+
 
 #s-key {
-    position: relative;
-    left: 39rem;
-    bottom: 5rem
+    background: url('./hihat.jpg') bottom center;
+    background-size: cover;
 }
 
+
 #d-key {
-    position: relative;
-    top: 10rem;
-    left: 42rem;
+    background: url('./kick.jpg') bottom center;
+    background-size: cover;
 }
+
 
 
 #f-key {
-    position: relative;
-    bottom: 8rem;
-    left: 16rem;
+    background: url('./openhat.jpg') bottom center;
+    background-size: cover;
 }
+
 
 
 #g-key {
-    position: relative;
-    top: 1rem;
-    left: 21rem;
+    background: url('./boom.jpg') bottom center;
+    background-size: cover;
 }
 
 
+
 #h-key {
-    position: relative;
-    bottom: 5rem;
-    right: 20rem;
+    background: url('./ride.jpg') bottom center;
+    background-size: cover;
 }
 
 
 #j-key {
-    position: relative;
-    right: 14rem;
-    bottom: 9rem;
+    background: url('./snare.jpg') bottom center;
+    background-size: cover;
 }
 
 
 #k-key {
-    position: relative;
-    right: 46rem;
-    top: 10rem;
+    background: url('./tom.jpg') bottom center;
+    background-size: cover;
 }
 
 
 #l-key {
-    position: relative;
-    top: 1rem;
-    right: 49rem;
-} */
+    background: url('./ride.jpg') bottom center;
+    background-size: cover;
+}
 
 .key {
     border: .3rem solid black;
-    border-radius: 4rem;
+    border-radius: 5rem;
     margin: 1rem;
-    font-size: 1.5rem;
-    padding: 2rem 0.5rem;
+    font-size: 2.5rem;
+    padding: 2rem 1rem;
     transition: all 0.1s ease;
     width: 10rem;
     text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 0.5rem black;
 }
 
 kbd {
     display: block;
-    font-size: 3rem;
+    font-size: 4rem;
+    color: white;
+    border-radius: 0.5rem;
 }
 
 
@@ -108,8 +104,10 @@ kbd {
 }
 
 .sound {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
-    color: #fdc687;
+    background-color: white;
+    border-radius: 0.5rem;
+    color: black;
 }
